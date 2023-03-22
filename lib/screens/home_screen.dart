@@ -195,6 +195,7 @@ class HomeScreen extends StatelessWidget {
                           shrinkWrap: true,
                           itemCount: data.length,
                           itemBuilder: ((context, index) => ListTile(
+
                                 leading: CircleAvatar(
                                   backgroundImage: NetworkImage(
                                       data[index]['icon'].toString()),
